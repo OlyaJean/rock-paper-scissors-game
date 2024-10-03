@@ -1,0 +1,65 @@
+*{box-sizing:border-box;
+margin:0;
+padding:0;
+--green: #456226;
+--yellow:#d0b50b;
+--light: #ebe8c1;
+
+}
+body{height: 100vh;
+width:100vw;
+margin:0;
+padding: 0;
+background-color:var(--light);
+color:var(--green);
+font-family:Tahoma, sans-serif,sans-serif;
+font-size: 1.5rem;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+text-align: center;
+padding:20px;
+border:10px solid var(--green);
+border-radius:30px
+}
+h1{font-family:"Bungee Tint", sans-serif;
+font-size: 2rem;
+  
+    }
+button{background-color: var(--light);
+border:none;
+margin:0 20px;
+transition: opacity 0.5s 0 ease;
+cursor: pointer;
+}
+button:active{opacity: 0.5;
+}
+#myChoice{font-weight: bold;
+font-size: 2rem;
+color:#d0b50b}
+#computerChoice{font-weight: bold;
+    font-size: 2rem;
+    color:#d0b50b}
+
+#again{background-color: var(--yellow);
+padding:10px;
+border-radius: 10px;
+box-shadow: 2px 2px 2px var(--green);}
+
+#hands{display:flex;
+justify-content:space-evenly;
+width:100%}
+.scores,.choices{font-family: "Playwrite DE Grund", cursive;
+}
+
+#result{
+    font-size: 3rem;
+  
+}
+
+.red{color:rgb(238, 21, 21)};
+.yellow{color:black};
+.green{color:var(--green)};
+.show{display:block !important}
+.hide{display:none !important}
